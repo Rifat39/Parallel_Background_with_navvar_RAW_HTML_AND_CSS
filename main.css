@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-img{
+    background-image: url("Eye.jpg");
+    height: 100vh;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
+.display-grid{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+}
+.nav-bar-flex{
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+}
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10PX;
+    color: white;
+}
+.custom-img{
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid orangered;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+a:hover{
+    color: orangered;
+}
+.background-flex{
+    display: flex;
+    flex-direction: column;
+    padding-top: 500px;
+    padding-right: 20px;
+    align-items: end;
+    justify-content: end;
+    color: white;
+}
+.background-flex h2{
+    font-size: 48px;
+    font-weight: 300;
+}
+.background-flex p{
+    font-size: 28px;
+}
